@@ -157,14 +157,8 @@ enum OutputDeviceType {
     case proxy
 }
 
-class AudioDevice {
+struct AudioDevice {
     let id: AudioDeviceID
     let name: String
     let isBuiltIn: Bool
-    
-    init(id: AudioDeviceID, name: String, isBuiltIn: Bool) {
-        self.id = id
-        self.name = name
-        self.isBuiltIn = isBuiltIn
-    }
 }
