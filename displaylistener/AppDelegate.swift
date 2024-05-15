@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  displaylistener
-//
-//  Created by 近松 和矢 on 2024/05/15.
-//
-
 import Foundation
 import AppKit
 import SwiftUI

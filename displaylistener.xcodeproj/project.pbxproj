@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C70A21D02BF4D4BB00718C3E /* displaylistenerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A21CF2BF4D4BB00718C3E /* displaylistenerApp.swift */; };
-		C70A21D22BF4D4BB00718C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A21D12BF4D4BB00718C3E /* ContentView.swift */; };
 		C70A21D42BF4D4BD00718C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A21D32BF4D4BD00718C3E /* Assets.xcassets */; };
 		C70A21D72BF4D4BD00718C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A21D62BF4D4BD00718C3E /* Preview Assets.xcassets */; };
 		C70A21DF2BF4D4E500718C3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A21DE2BF4D4E500718C3E /* AppDelegate.swift */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		C70A21CC2BF4D4BB00718C3E /* displaylistener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = displaylistener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70A21CF2BF4D4BB00718C3E /* displaylistenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displaylistenerApp.swift; sourceTree = "<group>"; };
-		C70A21D12BF4D4BB00718C3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C70A21D32BF4D4BD00718C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70A21D62BF4D4BD00718C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C70A21D82BF4D4BD00718C3E /* displaylistener.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = displaylistener.entitlements; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				C70A21CF2BF4D4BB00718C3E /* displaylistenerApp.swift */,
-				C70A21D12BF4D4BB00718C3E /* ContentView.swift */,
 				C70A21D32BF4D4BD00718C3E /* Assets.xcassets */,
 				C70A21D82BF4D4BD00718C3E /* displaylistener.entitlements */,
 				C70A21D52BF4D4BD00718C3E /* Preview Content */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70A21DF2BF4D4E500718C3E /* AppDelegate.swift in Sources */,
-				C70A21D22BF4D4BB00718C3E /* ContentView.swift in Sources */,
 				C70A21D02BF4D4BB00718C3E /* displaylistenerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +279,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Display Listener";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,8 +307,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Display Listener";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
